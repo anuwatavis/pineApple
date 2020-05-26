@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/">Logo</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav nav-fill w-100">
+        <li id="menu-item-42" class="nav-item" *ngFor="let item of items">
+          <a routerLink="/{{ item.item | lowercase  }}/" class="nav-link">{{ item.item }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

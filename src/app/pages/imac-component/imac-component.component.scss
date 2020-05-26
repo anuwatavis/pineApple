@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+$roboto-font: 'Roboto',
+sans-serif;
+
+.covid-content {
+  font-family: $roboto-font;
+  font-size: 14px;
+  background-color: #0071E3;
+  text-align: center;
+  padding: 12px;
+  color: #FFFFFF
+}
+
+.image-hero-macbook-pro-13 {
+  z-index: 1;
+  background-image: url("../../../assets//home/macbook_pro_13__ep96x983izyq_large_2x.jpg");
+  width: 647px;
+  height: 232px;
+  background-size: 647px 232px;
+  position: relative;
+  background-position: center;
+  left: 52px;
+}
+
+.buy-button {
+  margin-top: 1rem;
+  background-color: #0071e3;
+  border-radius: 18px;
+  width: 100%;
+}
+
+.title-items {
+  font-size: 3.5rem;
+}

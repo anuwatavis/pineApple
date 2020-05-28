@@ -11,6 +11,7 @@ import { FrontendLayoutComponent } from './layouts/frontend-layout/frontend-layo
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { WatchComponent } from './pages/watch/watch.component';
+import { DashboardComponent } from './pages/backend/dashboard/dashboard.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,10 @@ const routes: Routes = [
   {
     path: 'backend',
     component: LoginPageComponent,
+  },
+  {
+    path: 'dashboard/:email',
+    component: DashboardComponent,
   },
 ];
 @NgModule({

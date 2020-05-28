@@ -6,6 +6,9 @@
         <li id="menu-item-42" class="nav-item" *ngFor="let item of items">
           <a routerLink="/{{ item.item | lowercase  }}/" class="nav-link">{{ item.item }}</a>
         </li>
+        <li id="menu-item-42" class="nav-item">
+          <a routerLink="/backend" class="nav-link">login</a>
+        </li>
       </ul>
     </div>
   </div>
